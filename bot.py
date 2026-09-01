@@ -33,8 +33,8 @@ from telegram.ext import (
 # CONFIG
 # ============================================================
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-OWNER_IDS_RAW = os.getenv("OWNER_IDS", "").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8801263966:AAHDah0fgMFFPe7TLPtYA0XNNxgqIiVCwJI").strip()
+OWNER_IDS_RAW = os.getenv("OWNER_IDS", "8753914631").strip()
 DATABASE_PATH = os.getenv("DATABASE_PATH", "join_manager.sqlite3").strip() or "join_manager.sqlite3"
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper().strip()
 
